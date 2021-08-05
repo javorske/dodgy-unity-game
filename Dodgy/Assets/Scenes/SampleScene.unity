@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381114825}
   m_Layer: 0
-  m_Name: FallingObstacles
+  m_Name: Falling Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,24 +1038,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444688718}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1462778288 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7029835741815757690, guid: 61634c675c5b0c04d941b503735bc06d,
-    type: 3}
-  m_PrefabInstance: {fileID: 7029835743193179019}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1462778289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462778288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb90f78c40177a04a87926621e0fe90c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1576093883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1138,36 @@ Transform:
   - {fileID: 1444688719}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1888233625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1888233626}
+  m_Layer: 0
+  m_Name: Spinning Obstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1888233626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888233625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2263716, y: 4.141806, z: -7.2093077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1955627154
 GameObject:
@@ -1359,7 +1371,7 @@ PrefabInstance:
     - target: {fileID: 3789034887817162426, guid: 0d05b25a6dfd82549b9214267f62131a,
         type: 3}
       propertyPath: m_Name
-      value: LongObstacle
+      value: Long Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d05b25a6dfd82549b9214267f62131a, type: 3}
@@ -1428,7 +1440,7 @@ PrefabInstance:
     - target: {fileID: 7029835741815757690, guid: 61634c675c5b0c04d941b503735bc06d,
         type: 3}
       propertyPath: m_Name
-      value: FallingObstacle
+      value: Falling Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61634c675c5b0c04d941b503735bc06d, type: 3}

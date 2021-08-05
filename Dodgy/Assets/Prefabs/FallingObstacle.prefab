@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7029835741815757695}
   - component: {fileID: 7029835741815757688}
   - component: {fileID: 4601602840992568700}
+  - component: {fileID: 1462778289}
   m_Layer: 0
   m_Name: FallingObstacle
   m_TagString: Untagged
@@ -124,3 +125,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToWait: 1
+--- !u!114 &1462778289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029835741815757690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb90f78c40177a04a87926621e0fe90c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
