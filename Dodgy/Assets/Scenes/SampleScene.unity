@@ -1352,6 +1352,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381114825}
     m_Modifications:
+    - target: {fileID: 7029835741815757688, guid: 61634c675c5b0c04d941b503735bc06d,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7029835741815757689, guid: 61634c675c5b0c04d941b503735bc06d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1412,5 +1417,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallingObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 7029835741815757694, guid: 61634c675c5b0c04d941b503735bc06d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029835741815757694, guid: 61634c675c5b0c04d941b503735bc06d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3af9c96a573a44340b5c07a90d669526, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61634c675c5b0c04d941b503735bc06d, type: 3}
