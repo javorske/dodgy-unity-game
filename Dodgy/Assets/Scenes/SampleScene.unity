@@ -352,6 +352,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb90f78c40177a04a87926621e0fe90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &583517260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1888233626}
+    m_Modifications:
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.36956
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.63194
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.66693
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789034887817162426, guid: 0d05b25a6dfd82549b9214267f62131a,
+        type: 3}
+      propertyPath: m_Name
+      value: Spinning Obstacle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d05b25a6dfd82549b9214267f62131a, type: 3}
+--- !u!4 &583517261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3789034887817162373, guid: 0d05b25a6dfd82549b9214267f62131a,
+    type: 3}
+  m_PrefabInstance: {fileID: 583517260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &583517262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3789034887817162426, guid: 0d05b25a6dfd82549b9214267f62131a,
+    type: 3}
+  m_PrefabInstance: {fileID: 583517260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &583517263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583517262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ecb6154017ab74fbe872b9b35900dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAngle: 0
+  yAngle: 250
+  zAngle: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1276,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.2263716, y: 4.141806, z: -7.2093077}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 583517261}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
